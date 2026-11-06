@@ -5,6 +5,10 @@ desktop.ini
 .vscode/
 .idea/
 
+# Node & Vercel
+node_modules/
+.vercel/
+
 # Scratch & temporary files
 *.tmp
 *.bak

@@ -3,6 +3,8 @@
 > **A Retro Windows 98 Dual-Hand Gesture Synthesizer & Lo-Fi Video Recorder**  
 > Control polyphonic chords, voicings, continuous filter sweeps, volume, and visual energy waves entirely through hand gestures in your browser.
 
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/alchemist4real/thisnotafuckinmusic)
+
 ![Windows 98 Style](https://img.shields.io/badge/UI-Windows%2098-lightgrey?style=flat-square)
 ![Web Audio API](https://img.shields.io/badge/Audio-Web%20Audio%20API-blue?style=flat-square)
 ![MediaPipe Hands](https://img.shields.io/badge/CV-MediaPipe%20Hands-orange?style=flat-square)
@@ -87,7 +89,18 @@ No installation or build steps required!
 2. Open `index.html` in any modern web browser (Google Chrome, Microsoft Edge, or Safari recommended for camera & MediaRecorder support).
 3. Click **Start camera**, hold up your hands, and start creating music!
 
-### Hosting on GitHub Pages
+### ⚡ Deploy to Vercel (Recommended)
+
+Click the button below to deploy this synthesizer to your own Vercel account with zero configuration:
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/alchemist4real/thisnotafuckinmusic)
+
+Or via Vercel CLI:
+```bash
+vercel
+```
+
+### 🌐 Hosting on GitHub Pages
 1. Go to repository **Settings** $\rightarrow$ **Pages**.
 2. Under **Build and deployment**, set branch to `main` and folder to `/ (root)`.
 3. Save, and your synthesizer will be live worldwide instantly!

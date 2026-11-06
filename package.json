@@ -1,0 +1,21 @@
+{
+  "name": "thisnotafuckinmusic",
+  "version": "1.0.0",
+  "description": "Retro Windows 98 Dual-Hand Gesture Synthesizer & Lo-Fi Video Recorder",
+  "main": "index.html",
+  "scripts": {
+    "start": "serve .",
+    "dev": "serve ."
+  },
+  "keywords": [
+    "synthesizer",
+    "gesture-synth",
+    "mediapipe",
+    "web-audio-api",
+    "windows-98",
+    "lofi",
+    "camera-recorder"
+  ],
+  "author": "alchemist4real",
+  "license": "MIT"
+}
