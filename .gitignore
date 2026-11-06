@@ -13,3 +13,5 @@ node_modules/
 *.tmp
 *.bak
 *.backup.html
+
+.vercel
