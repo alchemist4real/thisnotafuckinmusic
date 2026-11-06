@@ -96,9 +96,11 @@ No installation or build steps required!
 
 ## 📜 Credits & Acknowledgments
 
-- Gesture mapping and dynamic harmonic synthesis logic inspired by **Eric Wei's** [Gesture Synth](https://github.com/ericwei97-cloud/gesture-synth).
-- Computer vision tracking powered by Google's [MediaPipe Hands](https://developers.google.com/mediapipe/solutions/vision/hand_landmarker).
-- Sound engine built with native [Web Audio API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API).
+- **Creator / Developer**: [alchemist4real](https://github.com/alchemist4real)
+- **OG Synth Wave & Gesture Interaction Concept**: Eric Wei's open-source [Gesture Synth](https://github.com/ericwei97-cloud/gesture-synth)
+- **Big Support & Resources**: Special thanks to **Mu'afa** & **Pandya**
+- **Computer Vision**: Powered by Google's [MediaPipe Hands](https://developers.google.com/mediapipe/solutions/vision/hand_landmarker)
+- **Audio Engine**: Native [Web Audio API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API)
 
 ---
 

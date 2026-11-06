@@ -435,12 +435,16 @@ kbd{font:700 11px/1 var(--font-mono);background:var(--paper);box-shadow:var(--fi
   </div>
 </div>
 <div class="modal" id="dlgAbout" hidden>
-  <div class="dlg small" role="dialog" aria-modal="true" aria-labelledby="dlgAboutT">
+  <div class="dlg" style="max-width:440px" role="dialog" aria-modal="true" aria-labelledby="dlgAboutT">
     <div class="wnd-title"><span id="dlgAboutT">About thisnotafuckinmusic</span><button type="button" data-close aria-label="Close">×</button></div>
     <div class="wnd-body help">
       <p><b>thisnotafuckinmusic</b> · gesture chord synth and camcorder</p>
-      <p>Left hand picks the chord, right hand colours it. Filters, voice and app sound go straight into the recording.</p>
-      <p>Hand tracking, filters and recording all run on your device. Nothing leaves your browser unless you save it.</p>
+      <p>Dual-hand interactive polyphonic synthesizer and lo-fi camcorder in authentic Windows 98 aesthetic. Hand tracking, WebGL shaders, dynamic energy waves, and audio recording run 100% on your device.</p>
+      <hr style="border:0;border-top:1px solid var(--btn-shadow);border-bottom:1px solid var(--btn-highlight);margin:10px 0">
+      <p><b>Credits &amp; Acknowledgments:</b></p>
+      <p>• <b>Creator / Developer:</b> alchemist4real</p>
+      <p>• <b>OG Synth Wave:</b> Eric Wei's Gesture Synth</p>
+      <p>• <b>Big Support &amp; Resource:</b> Mu'afa &amp; Pandya</p>
     </div>
     <div class="dlg-foot"><button class="btn98 def" type="button" data-close>OK</button></div>
   </div>
@@ -1583,8 +1587,10 @@ function buildHelp(){
   </dl>
   <h3>Keyboard Fallback</h3>
   <p><kbd>1</kbd>–<kbd>7</kbd> Scale degrees · <kbd>Q</kbd> Triad · <kbd>W</kbd> 1st Inv · <kbd>E</kbd> 7th · <kbd>R</kbd> Dom7 · <kbd>T</kbd> -8ve Bass · <kbd>Y</kbd> Maj ↔ min · <kbd>Space</kbd> Mute · <kbd>Z</kbd> / <kbd>X</kbd> Octave shift · <kbd>Shift</kbd>+<kbd>R</kbd> Record · <kbd>Shift</kbd>+<kbd>S</kbd> Snapshot · <kbd>Shift</kbd>+<kbd>C</kbd> Camera</p>
-  <h3>Reference</h3>
-  <p>Based on Eric Wei's open-source <b>Gesture Synth</b> (https://github.com/ericwei97-cloud/gesture-synth), combining computer vision with dynamic Web Audio synthesis.</p>`;
+  <h3>Credits &amp; Acknowledgments</h3>
+  <p>• <b>Creator / Developer:</b> alchemist4real</p>
+  <p>• <b>OG Synth Wave:</b> Eric Wei's open-source <b>Gesture Synth</b> (https://github.com/ericwei97-cloud/gesture-synth)</p>
+  <p>• <b>Big Support &amp; Resource:</b> Mu'afa &amp; Pandya</p>`;
 }
 
 /* ---------- menus ---------- */
