@@ -1,11 +1,25 @@
 {
   "name": "thisnotafuckinmusic",
-  "version": "1.0.0",
-  "description": "Retro Windows 98 Dual-Hand Gesture Synthesizer & Lo-Fi Video Recorder",
+  "version": "2.3.0",
+  "description": "Retro Windows 98 Dual-Hand Gesture Synthesizer, DJ Console Pro & Lo-Fi Video Recorder",
   "main": "index.html",
   "scripts": {
     "start": "serve .",
-    "dev": "serve ."
+    "dev": "serve .",
+    "test:wm": "node test_siklus3_wm.js",
+    "test:crate": "node test_siklus2_crate.js",
+    "test:crate3": "node test_siklus3_crate.js",
+    "test:dj": "node test_siklus3_dj_console.js",
+    "test:sampler": "node test_siklus1_sampler_fx.js",
+    "test:sampler2": "node test_siklus2_sampler_fx.js",
+    "test:sampler3": "node test_siklus3_sampler_fx.js",
+    "test:scratch": "node test_siklus1_scratch.js",
+    "test:scratch2": "node test_siklus2_scratch.js",
+    "test:scratch3": "node test_siklus3_scratch.js",
+    "test:teleprompter": "node test_siklus1_teleprompter.js",
+    "test:teleprompter2": "node test_siklus2_teleprompter.js",
+    "test:teleprompter3": "node test_siklus3_teleprompter.js",
+    "test": "node test_siklus3_dj_console.js"
   },
   "keywords": [
     "synthesizer",
@@ -13,8 +27,12 @@
     "mediapipe",
     "web-audio-api",
     "windows-98",
+    "dj-console",
+    "turntables",
+    "vinyl-scratch",
     "lofi",
-    "camera-recorder"
+    "camera-recorder",
+    "offline-first"
   ],
   "author": "alchemist4real",
   "license": "MIT"
